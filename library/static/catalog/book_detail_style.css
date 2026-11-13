@@ -1,0 +1,11 @@
+body {
+    background-color: #2bb972;
+}
+
+p {
+    background-color: aliceblue;
+    margin: 20px;
+    border-color: #034827;
+    border-radius: 10px;
+    border-width: 5px;
+}

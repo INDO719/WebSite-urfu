@@ -24,7 +24,8 @@ def get_info(request):
         'title': 'Абра кадабра',
         'author': 'Лев Толстый',
         'year': 1984,
-        'rating': 5
+        'rating': 5,
+        'price': 1599
     }
 
     return render(request, 'catalog/book_detail.html', {'info': info})
